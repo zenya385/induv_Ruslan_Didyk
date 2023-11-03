@@ -1,0 +1,14 @@
+h1,
+p,
+ul,
+li {
+    display: inline;
+}
+
+
+b,
+strong,
+img,
+a {
+    display: block;
+}
