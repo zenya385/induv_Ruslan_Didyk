@@ -1,0 +1,77 @@
+.wrap {
+  width: 50%;
+  background-color: aquamarine;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  color: #000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+
+  text-shadow: 2px 2px 4px #e41212, 4px 4px 6px #0ee4ae;
+}
+
+.text::target-text {
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 1.36;
+  /* white-space: pre; */
+}
+.text::selection {
+  background-color: transparent;
+  /* color: #000; */
+}
+
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+.prosa {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.prosa::first-letter {
+  color: red;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 0 10px;
+}
+
+.prosa::first-line {
+  color: green;
+}
+
+.prosa::selection {
+  background-color: aqua;
+  color: tomato;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: 30px;
+}
+.subtitle::after {
+  content: "☕";
+}
+
+.subtitle::before {
+  content: "\1F582";
+}
+
+li::marker {
+  color: #e41212;
+  font-size: 30px;
+}

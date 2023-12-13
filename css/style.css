@@ -1,0 +1,95 @@
+:root {
+  --color-logo-primary: #2196f3;
+  --color-logo-seconady: #000;
+  --color-primary: #fff;
+  --color-title: #000;
+  --color-active: #2196f3;
+  --color-link-navigation: #757575;
+  --color-text: #212121;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  border: 1px solid #000;
+  color: var(--color-active);
+}
+
+h1 {
+  /* font-size: 30px; */
+  text-transform: uppercase;
+}
+
+h1:hover {
+  color: aqua;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  /* color: var(--color-title, tomato); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-logo-primary);
+}
+
+/* Яким буде колір тексту абзаців? */
+p {
+  /* color: blue; */
+  background-color: orange;
+  /* border: 1px solid #000; */
+  border: initial;
+}
+
+p {
+  /* color: teal; */
+}
+
+p {
+  background-color: #ee8080;
+}
+
+a.logo[href] {
+  /* color: yellowgreen; */
+}
+
+a.logo[href]:hover {
+  color: yellowgreen;
+  font-size: 45px;
+}
+
+[href] {
+  /* color: aqua; */
+}
+
+#id {
+}
+
+.team ul > li > h3 + img {
+}
+
+.team ul > li > h3 + img[alt] {
+}
+
+[qwerty="cfgh"] {
+}
+
+nav li:hover a {
+  color: red;
+  background-color: #f89b4d;
+}
+
+.item:first-child {
+  color: red;
+}
+.item:last-child {
+  color: rgb(0, 255, 64);
+}
+
+.item:nth-child(2n) {
+  color: rgb(255, 0, 212);
+}
